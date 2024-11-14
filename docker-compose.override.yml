@@ -1,0 +1,5 @@
+version: "3.8"
+services:
+  dev-finder-app:
+    environment:
+      - DATABASE_URL=postgres://postgres:example@dev-finder-db:5432/postgres          
